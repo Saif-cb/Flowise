@@ -10,7 +10,8 @@
         "components",
         "api-documentation"
     ],
-    "scripts": {
+    "scripts": {"start": "npm run start:prod"
+
         "build": "turbo run build",
         "build-force": "pnpm clean && turbo run build --force",
         "dev": "turbo run dev --parallel --no-cache",
